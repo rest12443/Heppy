@@ -1,0 +1,290 @@
+body {
+    background-color: #dccfb2;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.music {
+    width: 350px;
+    height: 150px;
+    background-color: rgb(255, 193, 204); /* Основной цвет фона */
+
+
+    position: relative; /* Позиционирование */
+    right: 0;
+    left: 0;
+    margin: auto; /* Центрирование блока */
+    
+    border-radius: 10%; /* Скругление углов */
+    box-shadow: 0 0 10px rgb(255, 227, 16);
+
+}
+
+.img-music {
+    width: 100px;
+    height: 100px;
+    background-image: url("");
+    background-size: 100%;
+
+    border-radius: 30%;
+
+    position: absolute;
+    top: 15px;
+    bottom: 0;
+    margin: auto;
+
+    left: 10px;
+
+    box-shadow: 0 0 10px rgb(8, 225, 237);;
+
+    animation: rgb-color-imd-shadow 4s infinite;
+}
+@keyframes  rgb-color-imd-shadow {
+    0% {
+        box-shadow: 0 0 10px rgb(8, 225, 237);
+    }
+    20% {
+        box-shadow: 0 0 10px rgb(8, 237, 42);
+    }
+    40% {
+        box-shadow: 0 0 10px rgb(82, 4, 216);
+    }
+    60% {
+        box-shadow: 0 0 10px rgb(247, 5, 170);
+    }
+    80% {
+        box-shadow: 0 0 10px rgb(80, 50, 210);
+    }
+    100% {
+        box-shadow: 0 0 10px rgb(8, 225, 237);
+    }
+}
+
+.name-music {
+    width: 350px;
+    height: 1px;
+    
+    text-align: center;
+
+    color: rgb(255, 255, 255);
+    color: white;
+
+    font-size: 22px;
+    animation: rgb-color 3s infinite;
+}
+@keyframes rgb-color {
+    0% {
+        color: cyan;
+        text-shadow: 0 0 3px rgb(67, 217, 255);
+    }
+    20% {
+        color: rgb(251, 0, 255);
+        text-shadow: 0 0 6px rgb(252, 59, 255);;
+    }
+    40% {
+        color: rgb(255, 0, 38);
+        text-shadow: 0 0 3px rgb(255, 48, 79);;
+    }
+    60% {
+        color: rgb(255, 223, 39);
+        text-shadow: 0 0 6px rgb(255, 233, 110);;
+    }
+    80% {
+        color: rgb(0, 255, 8);
+        text-shadow: 0 0 9px rgb(75, 255, 81);;
+    }
+    100% {
+        color: cyan;
+        text-shadow: 0 0 3px rgb(67, 217, 255);
+    }
+}
+.skeep-buttom-up {
+    width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-left: 30px solid rgb(88, 37, 255);;
+	border-bottom: 20px solid transparent;
+
+    position: absolute;
+    right: 30px;
+    top: 80px;
+
+    cursor: pointer;
+}
+
+.skeep-buttom-down {
+    width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-right: 30px solid rgb(88, 37, 255);
+	border-bottom: 20px solid transparent;
+
+    position: absolute;
+    right: 160px;
+    top: 80px;
+
+
+    cursor: pointer;
+}
+
+.pouse {
+    width: 35px;
+    height: 35px;
+
+    background-color: red;
+
+    position: absolute;
+    right: 95px;
+    top: 82px;
+
+    animation: rgb-color-buttom 2s infinite;
+
+    cursor: pointer;
+}
+
+
+@keyframes rgb-color-buttom {
+    0% {
+        background-color: #FF9FF3;
+        box-shadow: 0 0 2px #ff5de9;
+    }
+    20% {
+        background-color: #F368E0;
+        box-shadow: 0 0 4px #ff47e6;
+    }
+    40% {
+        background-color: #C56CF0;
+        box-shadow: 0 0 6px #ae3de7;
+    }
+    60% {
+        background-color: #7F00FF;
+        box-shadow: 0 0 6px #5b00b6;
+    }
+    80% {
+        background-color: #D980FA;
+        box-shadow: 0 0 4px #cf4aff;
+    }
+    100% {
+        background-color: #FF9FF3;
+        box-shadow: 0 0 2px #ff5de9;
+    }
+}
+
+.time {
+    position: absolute;
+    right: 75px;
+    top: 40px;
+
+    font-size: 30px;
+    color: #0006a8;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+.Congratulation {
+    width: 300px;
+    margin: auto;
+
+}
+h1 {
+    text-align: center;
+    color: none;
+    text-shadow: none;
+    animation: rgb-color 6s infinite;
+
+}
+h2 {
+    font-size: 20px;
+
+    text-align: center;
+}
+
+
+.quiz {
+    width: 350px;
+    height: 350px;
+    background-color: #CE93D8;
+
+    box-shadow: 0 0 10px rgb(224, 231, 38);
+
+    position: relative; /* Позиционирование */
+    right: 0;
+    left: 0;
+    margin: auto; /* Центрирование блока */
+    
+    border-radius: 5%; /* Скругление углов */
+
+    transition: background-color 0.5s;
+    
+}
+.red-color {
+    background-color: rgb(223, 42, 42)
+}
+.green-color {
+    background-color: rgb(0, 255, 8)
+}
+
+
+.text-quiz {
+    font-size: 30px;
+
+    text-align: center;
+    font-weight: 900;
+    color: #383838;
+    text-shadow: 0 0 8px rgb(255, 255, 255);
+    
+    position: relative;
+    top: 5px;
+}
+.question1, .question2, .question3 {
+    font-size: 25px;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+
+    text-align: center;
+
+    position: relative;
+    top: 30px;
+    left: 10px;
+
+    padding-bottom: 30px;
+}
+
+.text-exit {
+    width: 100%;
+    height: 100%;
+    background-color: #00000092;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.opas-zero {
+    display: none;
+}
+
+.box-text-exit {
+    width: 350px;
+
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+    background-color: #230060;
+    border-radius: 5%;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #c3c3c3;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+
+    text-align: center;
+}
